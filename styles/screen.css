@@ -351,4 +351,81 @@ template {
 /* Begin site styles below */
 body {
   background-color: #f7f5e6;
+  /*background: linear-gradient(110deg, #f7f5e6 60%, white 60%);*/
+  color:#333a56;
+}
+
+main {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #526586;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+}
+
+img {
+  width: 100%;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#home #content {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 15% auto auto;
+  grid-gap: 10px;
+}
+
+#summary {
+  grid-row: 2;
+}
+
+#links {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+#resume #content section:not(#personal_info) {
+  width: auto;
+  padding: 10px 50px 55px 50px;
+}
+
+#personal_info {
+  width: auto;
+  height: 80px;
+  background-color: #333a56;
+  color: white;
+  padding: 30px 50px 15px 50px;
+}
+
+#experience {
+  display: grid;
+  background-color: white;
+  grid-template-columns: 25% auto;
+}
+
+#experience h3, .date {
+  grid-column: 1;
+}
+
+#experience p:not(.date), #experience ul {
+  grid-column: 2;
+}
+
+footer {
+  text-align: center;
 }
