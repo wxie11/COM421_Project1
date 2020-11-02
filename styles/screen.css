@@ -2,6 +2,12 @@ body {
   background-color: #f7f5e6;
   color:#333a56;
   margin: 0px;
+  font-family: 'Bitter', serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
 main {
@@ -29,6 +35,14 @@ img {
   width: 50%;
   grid-column: 1;
   grid-row: 2;
+}
+
+strong {
+  font-weight: 600;
+}
+
+#name {
+  font-size: 25px;
 }
 
 #home #content {
@@ -59,7 +73,7 @@ img {
 
 #personal_info {
   width: auto;
-  height: 80px;
+  height: 100px;
   background-color: #333a56;
   color: white;
   padding: 30px 50px 15px 50px;
