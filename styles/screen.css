@@ -1,6 +1,6 @@
 body {
   background-color: #f7f5e6;
-  color:#333a56;
+  color: #333a56;
   margin: 0px;
   font-family: 'Bitter', serif;
 }
@@ -29,6 +29,8 @@ nav li {
 
 nav a {
   color: white;
+  text-decoration: none;
+  margin-right: 30px;
 }
 
 img {
@@ -45,13 +47,13 @@ footer {
   text-align: center;
 }
 
-#image_background {
+#background {
   z-index: -1;
   margin-top: 50px;
   margin-left: 80px;
-  height: 450px;
-  width: 320px;
-  background-color:#333a56;
+  height: 500px;
+  width: 900px;
+  background: linear-gradient(81deg, #333a56 35%, white 35%);
   grid-column: 1;
   grid-row: 2;
 }
@@ -73,7 +75,7 @@ footer {
 }
 
 #welcome {
-  margin-top: 23px;
+  margin-top: 50px;
   grid-row: 2;
   grid-column: 2;
 }
@@ -87,7 +89,7 @@ footer {
 #highlights {
   grid-column: 1;
   grid-row: 2;
-  margin-top: 330px;
+  margin-top: 380px;
   margin-left: 100px;
   color: white;
 }
@@ -117,6 +119,17 @@ footer {
 
 #experience p:not(.date), #experience ul {
   grid-column: 2;
+}
+
+#resume #content h1 {
+  display:inline-block;
+}
+
+#pdf_resume {
+  color: #333a56;
+  display:inline-block;
+  float: right;
+  margin-top: 40px;
 }
 
 .icon {
