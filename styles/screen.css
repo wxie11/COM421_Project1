@@ -161,6 +161,10 @@ ul {
   grid-column: 2;
 }
 
+#experience li {
+  margin-top: 5px;
+}
+
 #resume #content h1 {
   display:inline-block;
 }
