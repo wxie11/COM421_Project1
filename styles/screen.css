@@ -11,11 +11,11 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 23px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -23,18 +23,32 @@ h2 {
 h3 {
   font-size: 18px;
 }
+
 main {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
 
+header p {
+  font-family: 'Satisfy', cursive;
+  font-size: 35px;
+}
+
 nav {
-  position: fixed;
   top: 0px;
   width: 100%;
-  background-color:#333a56;
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  position: fixed;
+  color: white;
+  background-color: #333a56;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul {
+  padding-top: 10px;
 }
 
 nav li {
@@ -44,11 +58,7 @@ nav li {
 nav a {
   color: white;
   text-decoration: none;
-  margin-right: 30px;
-}
-
-strong {
-  font-weight: 600;
+  margin-left: 30px;
 }
 
 footer {
@@ -71,13 +81,12 @@ ul {
   margin-right: 15px;
 }
 
-
 #background {
   z-index: auto;
   margin-top: 50px;
   margin-left: 80px;
   height: 500px;
-  width: 900px;
+  width: 883px;
   background: linear-gradient(81deg, #333a56 35%, white 35%);
   grid-column: 1;
   grid-row: 2;
@@ -88,21 +97,21 @@ ul {
 }
 
 #home #content {
-  padding-top: 70px;
+  padding-top: 100px;
   display: grid;
   grid-template-columns: 40% auto;
   grid-template-rows: 10% auto auto;
-  grid-gap: 30px;
+  grid-column-gap: 30px;
   padding-bottom: 50px;
 }
 
 #resume #content {
-  padding-top: 70px;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 
 #resume h1 {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 #resume ul li {
@@ -177,7 +186,7 @@ ul {
 }
 
 #volunteer #content {
-  padding-top: 70px;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 
@@ -203,10 +212,14 @@ ul {
 }
 
 #volunteer h1 {
-  margin-bottom: 43px;
+  margin-bottom: 25px;
 }
 
 #volunteer #content > section:nth-child(3) {
   background-color: white;
   color: #333a56;
+}
+
+.bold_text {
+  font-weight: 600;
 }
