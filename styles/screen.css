@@ -30,9 +30,10 @@ main {
   margin-right: auto;
 }
 
-header p {
+nav p {
   font-family: 'Satisfy', cursive;
   font-size: 35px;
+  padding-left: 28px;
 }
 
 nav {
@@ -49,6 +50,7 @@ nav {
 
 nav ul {
   padding-top: 10px;
+  padding-right: 28px;
 }
 
 nav li {
